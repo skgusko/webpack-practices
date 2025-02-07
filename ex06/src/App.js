@@ -2,6 +2,8 @@ import './assets/scss/App.scss';
 import logo from './assets/images/logo.svg';
 
 function App() {
+    console.logo(logo);
+    
     const App = document.createElement('div');
     App.textContent = "Hello World";
     App.className = "Header";
